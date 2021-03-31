@@ -1,0 +1,5 @@
+ProfileName = (Anaconda Prompt에서 설정한 임의의 프로필명)
+
+ex) 아래 프로필명
+On Anaconda Prompt
+(base)>conda create –n 프로필명 python=3.7
