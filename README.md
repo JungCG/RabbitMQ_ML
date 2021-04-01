@@ -82,7 +82,10 @@
         <p align="center">
             <img src = "Image/ProducerResult.png", width="100%">
         </p>  
-  
+        
+    10. **Data Crawling 결과** <sub>(Day : 1..20, Page : 1..4, ML에 사용하는 데이터는 아래에서 에러 데이터 삭제)</sub>  
+        <ul><li>digital : 7631</li><li>society : 8516</li><li>economic : 8495</li><li>foreign : 8391</li><li>culture : 8537</li><li>politics : 8345</li></ul>  
+        
 2. **Consumer(MQ) + DB Save** : Spring Boot를 이용해서 Queue의 데이터를 읽고, PostgreSQL에 데이터 저장  
 
     1. [Spring Initializer](https://start.spring.io/)로 **Spring Boot 프로젝트 생성**  
